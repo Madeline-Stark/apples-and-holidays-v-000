@@ -47,9 +47,9 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |holiday, supplies|
       if supplies == "BBQ"
         new_array << holiday
-        binding.pry
       end
     end
   end
   new_array
+  binding.pry
 end
